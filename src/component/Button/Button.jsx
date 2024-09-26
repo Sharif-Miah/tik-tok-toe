@@ -1,14 +1,8 @@
-import { useState } from "react";
-
-export default function Button() {
-  const [value, setValue] = useState(null);
-  const handleClick = () => {
-    setValue("X");
-  };
+export default function Button({ value, handleSqure }) {
   return (
     <button
-      onClick={handleClick}
-      className="text-lg border border-gray-400  my-1 mx-1 w-12 h-12"
+      onClick={handleSqure}
+      className="border border-gray-400 m-1 w-12 h-12 rounded text-lg"
     >
       {value}
     </button>

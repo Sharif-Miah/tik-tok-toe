@@ -1,4 +1,4 @@
-import { Board } from "../Board/Board";
+import Board from "../Board/Board";
 
 export default function Game() {
   return (
@@ -10,7 +10,7 @@ export default function Game() {
         <div>
           <Board />
         </div>
-        <div>{/* <ol>{Write to order list here }</ol> */}</div>
+        <div>{/* <ol>{ Write to order list here }</ol> */}</div>
       </div>
     </div>
   );
